@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT products (product+)>
+<!ELEMENT product (name,price,avail_qnty,category)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT avail_qnty (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ATTLIST product pid ID #REQUIRED>
+<!ATTLIST product lang (Java|C|Python) "Java">

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE products SYSTEM "amazon.dtd">
+<products>
+    <product pid="P1" lang="Java">
+        <name>TV</name>
+        <price>499.49</price>
+        <avail_qnty>10</avail_qnty>
+        <category>Electronics</category>
+    </product>
+    <product pid="P2" lang="Java">
+        <name>Top</name>
+        <price>10.99</price>
+        <avail_qnty>100</avail_qnty>
+        <category>Clothing</category>
+    </product>
+    <product pid="P3" lang="Java">
+        <name>Webstack Devoplement</name>
+        <price>15.66</price>
+        <avail_qnty>200</avail_qnty>
+        <category>Books</category>
+    </product>
+</products>
