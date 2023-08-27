@@ -32,6 +32,8 @@
                             <xs:element name="avail_qnty" type="qnty"/>
                             <xs:element name="category" type="categoryType"/>
                         </xs:sequence>
+                        <xs:attribute name="pid" type="xs:string" use="required" />
+                        <xs:attribute name="lang" type="xs:string" />
                     </xs:complexType>
 
                 </xs:element>
